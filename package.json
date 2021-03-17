@@ -1,0 +1,15 @@
+{
+  "name": "migrate-azure-storage",
+  "version": "1.0.2",
+  "description": "Manage history of scripts ran against azure storage",
+  "main": "main.js",
+  "author": "Terry Hammett",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/storage-blob": "^12.5.0",
+    "commander": "^7.1.0"
+  },
+  "bin": {
+    "migrate-azure-storage": "./main.js"
+  }
+}
