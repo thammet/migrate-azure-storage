@@ -1,10 +1,15 @@
 {
   "name": "migrate-azure-storage",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Manage history of scripts ran against azure storage",
+  "keywords": ["azure", "az cli", "azure storage", "azure storage history", "azure migration"],
   "main": "main.js",
   "author": "Terry Hammett",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thammet/migrate-azure-storage"
+  },
   "dependencies": {
     "@azure/storage-blob": "^12.5.0",
     "commander": "^7.1.0"
