@@ -1,6 +1,6 @@
 {
   "name": "migrate-azure-storage",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Manage history of scripts ran against azure storage",
   "keywords": ["azure", "az cli", "azure storage", "azure storage history", "azure migration"],
   "main": "main.js",

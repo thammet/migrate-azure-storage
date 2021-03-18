@@ -34,7 +34,7 @@ module.exports = async () => {
             await executeJavascript(blobServiceClient, filepath);
         }
 
-        history = [...history, filename];
+        history.push(filename);
         await save(historyBlob, history)
     }
 }
